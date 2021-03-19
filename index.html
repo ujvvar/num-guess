@@ -2,25 +2,25 @@
 
 <html>
   <head>
-    <title>Number Guesser</title>
+    <title>Number Guessing Game</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="game-container">
       <header>
-        <h1>Number Guesser!</h1>
+        <h1>Number Guessing Game</h1>
       </header>
       
       <div class="rounds">
         <p class="round-label">Round <span id="round-number">1</span></p>
-        <p class="guess-label">Target Number: <span id="target-number">?</span></p>
+        <p class="guess-label">Target: <span id="target-number">?</span></p>
       </div>
 
       <div class="guessing-area">
         <div class="guess computer-guess">
           <div class="guess-title">
-            <p class="guess-label">Computer</p>
+            <p class="guess-label">Robot</p>
             <p class="score-label">Score: <span id="computer-score">0</span></p>
           </div>
           <p id="computer-guess">?</p>
@@ -36,7 +36,7 @@
             <button class="number-control left" id="subtract" disabled>-</button>
             <button class="number-control right" id="add">+</button>
           </div>
-          <button class="button" id="guess">Make a Guess</button>
+          <button class="button" id="guess">Enter a number!</button>
         </div>
       </div>
 
@@ -49,11 +49,11 @@
     <div class="instructions">
       <div class="instruction">
         <h3>Step 1</h3>
-        <p>Input a number between 0 and 9</p>
+        <p>Enter a number (0-9).</p>
       </div>
       <div class="instruction">
         <h3>Step 2</h3>
-        <p>Click "Make a Guess" to submit your guess and see who won the round.</p>
+        <p>Use the "Click me!" button and submit your guess, then see who won the round.</p>
       </div>
       <div class="instruction">
         <h3>Step 3</h3>
