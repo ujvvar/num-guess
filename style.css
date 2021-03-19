@@ -6,7 +6,7 @@
 body {
   margin: 0 auto;
   padding: 3px;
-  background-color: teal;
+  background-image: linear-gradient(to right, #9df022, #22f0b2);
 }
 
 .game-container {
@@ -77,7 +77,8 @@ header {
 }
 
 .computer-guess {
-  background-color: #4bd6e0;
+  border: 3px solid #000000;
+  border-radius: 5px;
 }
 
 #computer-guess {
@@ -88,6 +89,7 @@ header {
 
 .human-guess {
   border: 3px solid #000000;
+  border-radius: 5px;
 }
 
 .guess input {
@@ -97,6 +99,8 @@ header {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 7px;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
 }
 
 .number-controls {
@@ -111,12 +115,13 @@ header {
   height: 35px;
   font-size: 24px;
   font-weight: 700;
+  background-color: #9df022;
   color: #4c7ef3;
   cursor: pointer;
 }
 
 .number-controls button[disabled] {
-  color: #dfdfdf;
+  color: #000000;
   cursor: default;
 }
 
@@ -137,9 +142,11 @@ header {
 }
 
 .button {
-  background-color: #4c7ef3;
-  color: #fff;
+  background-color: transparent;
+  border: 3px solid #000000;
+  color: #000000; 
   cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
 }
 
 #guess {
@@ -166,15 +173,19 @@ input[type=number]::-webkit-inner-spin-button {
 }
   
 .button[disabled] {
-  background-color: #d2d2d2;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
   color: #a0a0a0;
   cursor: default;
 }
 
 .instructions {
-  background-color: black;
-  color: turquoise;
-  width: 100%;
+  background-image: linear-gradient(to right, #22f0b2, #9df022);
+  border: 3px solid #000000;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-around;
 }
@@ -182,17 +193,17 @@ input[type=number]::-webkit-inner-spin-button {
 .instruction {
   width: 180px;
   padding: 2px;
-  color: turquoise;
+  color: #000000;
   text-align: center;
 }
 
 .instructions h3 {
   font-size: 14px;
-  color: turquoise;
+  color: #000000;
 }
 
 
 .winning-text, .winning-text[disabled] {
-  color: #ec3636;
+  color: #000000;
   font-weight: 700;
 }
