@@ -1,7 +1,6 @@
 # Number Guessing Game
 
-A heavily redesigned number guessing game based on a Codecademy project.
-
+A redesigned number guessing game based on a Codecademy project.
 
 ## How it looks
 
